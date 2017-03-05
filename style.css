@@ -185,6 +185,7 @@ max-width: 920px;
 
 }
 .text_wrap h2{
+	height: 48px;
 	margin: 6px 0;
 }
 .text_wrap p{
