@@ -278,16 +278,16 @@ iframe{
 	right: 8px;
 }
 .fixed_ntw .fb{
-	opacity: 0.5;
+	opacity: .5;
 }
 .fixed_ntw .tw{
-	opacity: 0.5;
+	opacity: .5;
 }
 .fixed_ntw .vk{
-	opacity: 0.5;
+	opacity: .5;
 }
 .fixed_ntw .youtube{
-	opacity: 0.5;
+	opacity: .5;
 }
 .fixed_ntw .fb:hover{
 	margin-top: 0;
