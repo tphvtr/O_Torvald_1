@@ -259,6 +259,7 @@ iframe{
 .fixed_ntw{
 	flex-direction: column;
 	position: fixed;
+	z-index: 5;
 	top: 144px;
 	right: 8px;
 }
