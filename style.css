@@ -43,7 +43,7 @@ img{
 }
 .cover{
 	width: 100%;
-	background-image: url(images/Cover_front-1.jpg);
+	background-image: url(images/progressive_cover.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 0;
@@ -53,6 +53,19 @@ img{
 	content: '';
 	display: block;
 	clear: both;
+}
+.anchor{
+	background-image: url(images/anchor.png);
+	background-size: 100%;
+	width: 25px;
+	height: 25px;
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	opacity: 1.0;
+}
+.anchor:hover{
+	opacity: .5;
 }
 .header_menu{
 	list-style: none;
@@ -296,6 +309,9 @@ footer{
 	padding: 16px;
 }
 @media (min-width: 650px){
+	.anchor{
+		right: 32px;
+	}
 	.fixed_ntw{
 		right: 32px;
 	}
