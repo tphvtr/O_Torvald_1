@@ -163,6 +163,14 @@ max-width: 920px;
 
   padding-bottom: 48.25%;
 }
+iframe{
+	scroll-behavior: unset;
+	border: 0;
+}
+.music{
+	width: 100%;
+	height: 450px;
+}
 .video iframe {
 	 padding: 0 8px;
   position: absolute;
